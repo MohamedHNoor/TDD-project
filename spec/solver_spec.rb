@@ -23,7 +23,7 @@ describe Solver do
       expect(Solver.new.reverse('hello')).to eq('olleh')
     end
   end
-  
+
   describe '#fizzbuzz' do
     it 'should return the correct string' do
       expect(Solver.new.fizzbuzz(15)).to eq('FizzBuzz')
