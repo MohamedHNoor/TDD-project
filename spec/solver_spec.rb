@@ -15,4 +15,10 @@ describe Solver do
       expect(Solver.new.factorial(5)).to eq(120)
     end
   end
+
+  describe '#reverse' do
+    it 'should reverse the string' do
+      expect(Solver.new.reverse('hello')).to eq('olleh')
+    end
+  end
 end
