@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require 'rspec'
-require_relative '../solver.rb'
+require_relative '../solver'
 
 describe Solver do
   describe '#factorial' do
